@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--suppress ALL -->
+<addon id="plugin.video.1channel4Xbox" version="2.0.2" name="1Channel XBMC4XBOX" provider-name="Bstrdsmkr">
+    <requires>
+        <import addon="xbmc.python" version="2.0"/>
+        <import addon="script.module.xbmcaddon"    version="1.1.0"/>
+        <import addon="script.module.simplejson"   version="2.0.0"/>
+        <import addon="script.module.pysqlite2"    version="1.0.0"/>
+        <import addon="script.module.elementtree"  version="1.2.0"/>
+        <import addon="script.module.xbmcvfs"      version="1.0.2"/>
+        <import addon="script.module.urlresolver" version="1.0.10"/>
+        <import addon="script.module.t0mm0.common" version="1.1.0"/>
+        <import addon="script.module.metahandler" version="1.0.0"/>
+        <import addon="script.module.myconnpy" version="0.3.2"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup">
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Browse 1channel.ch</summary>
+        <description>This addon is supported at [COLOR blue]www.XBMCHub.com[/COLOR], [COLOR white][B]NOT[/B][/COLOR]
+            [COLOR red]xbmc.org[/COLOR]. Play a wide selection of movies and TV shows from 1channel.ch
+        </description>
+        <platform>xbox</platform>
+    </extension>
+    <statfeed>
+        <working>mostly</working>
+        <notes>Images for hosts requiring captcha dont appear</notes>
+        <maintainer>kozz</maintainer>
+    </statfeed>
+</addon>

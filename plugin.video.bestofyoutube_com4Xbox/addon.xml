@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.bestofyoutube_com4Xbox" name="BestOfYoutube.com XBMC4XBOX" version="1.0.6" provider-name="AddonScriptorDE">
+    <requires>
+        <import addon="xbmc.python" version="2.0"/>
+		<import addon='script.module.simplejson' version='2.0.10'/>
+		<import addon='script.module.parsedom' version='1.4.0'/>
+		<import addon='script.module.xbmcvfs' version='1.0.1'/>
+        <import addon="plugin.video.youtube" version="3.3.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Only the best Youtube clips</summary>
+        <summary lang="de">Nur die besten Youtube Videos</summary>
+        <language>en</language>
+        <description lang="en">Only the best Youtube clips</description>
+        <description lang="de">Nur die besten Youtube Videos</description>
+    <platform>xbox</platform>
+    </extension>
+	<statfeed>
+    <working>yes</working>
+	<notes>none</notes>
+	<maintainer>skatulskijean</maintainer>
+    </statfeed>
+</addon>
