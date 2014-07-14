@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.wakeonlan"
+       name="Wake on Lan"
+       version="1.0.0"
+       provider-name="Dan Dar3">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>program</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>   
+    <summary lang="en">Wake on Lan</summary>
+    <description lang="en">Wake network devices on your lan</description>
+  </extension>
+  <statfeed>
+    <working>yes</working>
+	<notes>none</notes>
+	<maintainer>Dan Dar3</maintainer>
+  </statfeed>
+</addon>

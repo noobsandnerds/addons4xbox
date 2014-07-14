@@ -110,4 +110,168 @@
     <maintainer>kozz</maintainer>
   </statfeed>
 </addon>
+
+<addon id="plugin.audio.Sky.fm4Xbox"
+       name="Sky.fm XBMC4XBOX"
+       version="2.1.0"
+       provider-name="qualisoft.dk - Tim C. Steinmetz">
+	<requires>
+		<import addon="xbmc.python" version="2.0"/>
+		<import addon="script.module.simplejson"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>xbox</platform>
+		<language>en</language>
+		<license>GPL 2.0</license>
+   		<summary lang="en">Sky.fm4Xbox</summary>
+		<description lang="en">Sky.fm4Xbox Radio features a wide variety of free streaming radio channels. Find your favorites among the best of each class - be it New Age, 80s, Smooth Jazz, New Age, Top40, Hip Hop, Oldies, 70s, Reggae, Lounge or many others inside.
+		</description>
+		<language/>
+	</extension>
+	<statfeed>
+    <working>yes</working>
+	<notes>none</notes>
+	<maintainer>skatulskijean</maintainer>
+    </statfeed>
+</addon>
+
+<addon id="plugin.audio.songs_to" name="songs.to" version="1.0.0" provider-name="sphere">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="script.module.xbmcswift2" version="1.3.0"/>
+	<import addon="script.module.simplejson"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language></language>
+    <platform>all</platform>
+    <summary lang="en">Free Music Portal</summary>
+    <description lang="en">With the songs.to XBMC Add-on you can listen to your favourite music. Current Features:[CR]- Search by artist, album, title or in all fields[CR]- Show all songs from a selected album or artist[CR]- create and manage as much playlists as you want and add songs to them[CR]- Find similar songs</description>
+  </extension>
+  <statfeed>
+    <working>yes</working>
+	<notes>none</notes>
+	<maintainer>skatulskijean</maintainer>
+    </statfeed>
+</addon>
+
+<addon id="plugin.audio.tuneinradio4Xbox"
+       name="TuneIn Radio XBMC4BOX"
+       version="1.0.7"
+       provider-name="Brian Hornsby">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>xbox</platform>
+    <summary lang="bg">Радио TuneIn</summary>
+    <summary lang="en">TuneIn Radio</summary>
+    <description lang="bg">Радио TuneIn е безплатна услуга, която ви позволява да слушате всичко, независимо къде се намирате. Каквото желаете - музика, спорт или новини. Радио TuneIn предлага над 50 000 станции от които да избирате. Можете да намерите местните станции или да откриете нови станции от целия свят. Радио TuneIn ви отвежда точно където желаете да сте.</description>
+    <description lang="en">TuneIn Radio is a free service that lets you listen to anything in the world from wherever you are. Whether you want to hear music, sports, news or current events. TuneIn Radio offers over 50,000 stations for you to choose from. From finding local stations to discovering new stations from around the world, TuneIn Radio brings you to where you want to be.</description>
+    <description lang="es">TuneIn Radio es un servicio gratuito que te permite escuchar cualquier cosa del mundo desde donde te encuentres. Si deseas escuchar música, deportes, noticias o eventos actuales. TuneIn Radio ofrece más de 50,000 estaciones radiales para escoger, desde estaciones locales hasta descubrir nuevas estaciones alrededor del mundo, TuneIn Radio te lleva a donde tu quieras estar.</description>
+  </extension>
+  <statfeed>
+      <working>yes</working>
+	  <notes>none</notes>
+      <maintainer>kozz</maintainer>
+  </statfeed>
+</addon>
+
+<addon id="plugin.audio.xbmchubmusic4Xbox" name="XBMCHUB Music XBMC4XBOX" version="2.0" provider-name="Mikey1234">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+	<import addon="script.module.simplejson"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">en</summary>
+    <description lang="en">Stream All Of Your Favourite Music</description>
+    <platform>xbox</platform>
+  </extension>
+  <statfeed>
+    <working>yes</working>
+	<notes>none</notes>
+	<maintainer>skatulskijean</maintainer>
+    </statfeed>
+</addon>
+
+<addon id="plugin.program.notepad"
+       name="Notepad"
+       version="1.4.0"
+       provider-name="TestTeam">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>program</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <minversion>28764</minversion>
+    <summary lang="en">Noptepad</summary>
+    <description lang="en">Notepad</description>
+  </extension>
+  <statfeed>
+    <working>yes</working>
+	<notes>This is a text reader</notes>
+	<maintainer>DanDar3</maintainer>
+  </statfeed>
+</addon>
+
+<addon id="plugin.program.wakeonlan"
+       name="Wake on Lan"
+       version="1.0.0"
+       provider-name="Dan Dar3">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>program</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Wake on Lan</summary>
+    <description lang="en">Wake network devices on your lan</description>
+  </extension>
+  <statfeed>
+    <working>yes</working>
+	<notes>none</notes>
+	<maintainer>Dan Dar3</maintainer>
+  </statfeed>
+</addon>
+
+<addon id="plugin.program.xbmcsvninstaller"
+       name="XBMC4Xbox Installer"
+       version="2.2.0"
+       provider-name="Dan Dar3">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>program</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">XBMC news, skins and builds installer from XBMCSVN.com</summary>
+    <description lang="en">Easily update your xbox to the latest build of xbmc4xbox from within xbmc</description>
+  </extension>
+  <statfeed>
+    <working>yes</working>
+	<notes>XBMC news, skins and builds installer from XBMCSVN.com, Easily update your xbox to the latest build of xbmc4xbox from within xbmc</notes>
+	<maintainer>Dan Dar3</maintainer>
+  </statfeed>
+</addon>
 </addons>
