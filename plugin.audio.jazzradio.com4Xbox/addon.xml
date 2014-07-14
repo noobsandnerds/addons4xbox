@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.jazzradio.com4Xbox"
+       name="JazzRadio.com  XBMC4XBOX"
+       version="1.1.0"
+       provider-name="qualisoft.dk - Tim C. Steinmetz">
+	<requires>
+		<import addon="xbmc.python" version="2.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<language>en</language>
+		<platform>xbox</platform>
+		<license>GPL 2.0</license>
+   		<summary lang="en">JazzRadio.com</summary>
+		<description lang="en">Presenting jazz radio channels for your enjoyment. Listen for free and enjoy countless hours of the best jazz music around
+		</description>
+	</extension>
+    <statfeed>
+    <working>yes</working>
+	<notes>none</notes>
+	<maintainer>skatulskijean</maintainer>
+    </statfeed>
+	
+</addon>
